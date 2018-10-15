@@ -1,0 +1,6 @@
+* About
+This is a simple implementation of the Rprop (Riedman et al 1994) algorithm for
+Keras, which should be easy to reimplement to Tensorflow.
+* Usage
+Just add to your codebase and implement, pass it along as a optimizer to your
+"model.compile(optimizer=prop-optimizer-object)"
